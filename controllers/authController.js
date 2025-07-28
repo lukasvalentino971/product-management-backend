@@ -136,8 +136,17 @@ const getProfile = async (req, res) => {
   }
 };
 
+const logout = (req, res) => {
+  // Invalidate the token by not sending it back
+  res.json({
+    success: true,
+    message: 'Logged out successfully'
+  });
+};
+
 module.exports = {
   register,
   login,
-  getProfile
+  getProfile,
+  logout
 };

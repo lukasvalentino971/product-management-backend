@@ -14,8 +14,9 @@ const app = express();
 app.use(helmet());
 
 // CORS
+// In your Express server (or equivalent)
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: 'http://localhost:3000',
   credentials: true
 }));
 
