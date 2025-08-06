@@ -11,7 +11,7 @@ A modern RESTful API for managing products, built using **Express.js** and secur
 - 🧰 Middleware for auth & error handling
 - 📄 RESTful API design
 - 🌐 CORS enabled
-- 🗃️ MongoDB or SQL (choose your DB)
+- 🗃️ MySQL
 
 ---
 
@@ -19,7 +19,7 @@ A modern RESTful API for managing products, built using **Express.js** and secur
 
 - **Backend:** Node.js, Express.js
 - **Auth:** JSON Web Token (JWT)
-- **Database:** MongoDB / PostgreSQL / MySQL
+- **Database:** MySQL
 - **Other Tools:** Dotenv, Bcrypt, Morgan, Helmet
 
 ---
